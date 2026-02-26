@@ -52,7 +52,7 @@ nav a {
 
 nav a::after {
     content: "";
-    position: absolute;
+    position: relative;
     width: 0%;
     height: 2px;
     background: #38bdf8;
@@ -256,4 +256,5 @@ section {
     display: flex;
     flex-direction: column;
 }
+
 
