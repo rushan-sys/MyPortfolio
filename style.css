@@ -1,6 +1,3 @@
-/* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -225,6 +222,7 @@ section {
     }
 }
 
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     body {
@@ -241,8 +239,11 @@ section {
 
     .profile-pic {
         width: 130px;
+        height: 130px;   /* 👈 height bhi change karo */
     }
 }
+
+/* PROFILE PIC */
 .profile-pic {
     width: 160px;
     height: 160px;
@@ -262,6 +263,7 @@ section {
     display: flex;
     flex-direction: column;
 }
+
 
 
 
