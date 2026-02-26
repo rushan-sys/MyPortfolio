@@ -241,26 +241,24 @@ section {
     }
 
 }
-.profile-pic {
-    width: 160px;        /* medium size */
-    aspect-ratio: 1/1;   /* perfect square */
-    border-radius: 50%;  /* circle */
-    object-fit: cover;   /* image stretch na ho */
-    display: block;
-    margin: 0 auto 20px; /* center align */
-    border: 4px solid #38bdf8;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-    transition: 0.3s ease;
+ .profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
-
 .profile-pic:hover {
     transform: scale(1.05);
+    transition: 0.3s;
 }
-
  #home .container {
     display: flex;
     flex-direction: column;
 }
+
 
 
 
